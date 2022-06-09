@@ -140,6 +140,10 @@ ul {
   clear: both;
 }
 
+.Menu {
+  padding: 50px;
+}
+
 
 @keyframes App-logo-spin {
   from {

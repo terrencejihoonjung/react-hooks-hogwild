@@ -1,8 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Tile from './Tile'
 
-function TileList({hogs}) {
-    const hogList = hogs.map (hog =>{
+function TileList({newHogs}) {
+
+    const hogList = newHogs.map (hog =>{
         return <Tile
         name={hog.name} 
         image={hog.image} 
